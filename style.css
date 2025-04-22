@@ -1,0 +1,33 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #f5e9dd; /* light tan */
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #f4a9bb; /* light pink */
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5e9dd; /* same light tan as header */
+  border-radius: 20px;
+  margin: 2rem;
+}
