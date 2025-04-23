@@ -77,7 +77,7 @@ main {
   transform: translate(-50%, -50%);
   z-index: 2;
   text-align: center;
-  color: color: color: #4a3b3b;
+  color: color: color: #fffaf9; /* matches background color */
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
