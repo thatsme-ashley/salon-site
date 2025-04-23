@@ -76,4 +76,44 @@ nav a {
   font-size: 1.2rem;
   margin-top: 10px;
 }
+/* Navbar Logo */
+nav .logo img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+/* Flex layout for nav with logo */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #f8f3f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5e4b4b;
+  font-weight: bold;
+}
+
+/* Hero Logo Above Video */
+.hero-logo {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero-logo img {
+  max-width: 200px;
+  height: auto;
+  opacity: 0.95;
+}
 
