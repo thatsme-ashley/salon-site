@@ -78,7 +78,7 @@ main {
   z-index: 2;
   text-align: center;
   color: color: color: #fffaf9; /* matches background color */
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .banner-text h1 {
