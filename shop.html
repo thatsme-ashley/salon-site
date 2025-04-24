@@ -1,23 +1,54 @@
-<!-- Snipcart -->
-<div hidden id="snipcart" data-api-key='NjhlZTBiMmItOWVhMC00ZWI4LTk5NjYtNjA3OTE4ZWYyNDk5NjM4ODEwNDY1OTkxODY3MzYz',></div>
-<script async src="https://cdn.snipcart.com/themes/v3.6.0/default/snipcart.js"></script>
-<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.6.0/default/snipcart.css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop - That's Me, Ashley</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.6.0/default/snipcart.css" />
+</head>
+<body>
 
-<section class="shop-section" style="text-align: center; padding: 2rem;">
-  <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">20 Inch Genius Weft Extensions</h2>
+  <!-- Snipcart Setup -->
+  <div hidden id="snipcart" data-api-key=NjhlZTBiMmItOWVhMC00ZWI4LTk5NjYtNjA3OTE4ZWYyNDk5NjM4ODEwNDY1OTkxODY3MzYz></div>
+  <script async src="https://cdn.snipcart.com/themes/v3.6.0/default/snipcart.js"></script>
 
-  <img src="https://placehold.co/250x250?text=Extensions" alt="Extensions" style="width: 250px; border-radius: 1rem; margin-bottom: 1rem;">
+  <!-- Navigation -->
+  <header>
+    <div class="logo">TMA</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <p style="max-width: 400px; margin: 0 auto 1rem;">
-  20 Inch Genius Weft Extensions. </p>
+  <!-- Shop Section -->
+  <main>
+    <section class="shop-section" style="text-align: center; padding: 2rem;">
+      <h2 style="font-size: 1.8rem;">20 Inch Genius Weft Extensions</h2>
 
-  <button 
-    class="snipcart-add-item"
-    data-item-id="ext-001"
-    data-item-name="20 Inch Genius Weft Extensions"
-    data-item-price="$75.00"
-    data-item-url="/shop.html"
-    data-item-description="=20 inch Genius Weft Extensions.">
-    Add to Cart
-  </button>
-</section>
+      <img src="https://placehold.co/250x250?text=Extensions" alt="Extensions" style="width: 250px; border-radius: 1rem; margin-bottom: 1rem;">
+
+      <p style="max-width: 400px; margin: 0 auto 1rem;">
+        Luxe Genius Weft Extensions
+      </p>
+
+      <button 
+        class="snipcart-add-item"
+        data-item-id="ext-001"
+        data-item-name="20in Body Wave Extensions"
+        data-item-price="$75.00"
+        data-item-url="/shop.html"
+        data-item-description="Luxe Genius Weft Extensions.">
+        Add to Cart
+      </button>
+    </section>
+  </main>
+
+</body>
+</html>
